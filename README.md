@@ -36,39 +36,40 @@ Sky Fight is a text-based plane war game that the player ( one player ) controls
 - In order to obtain ranking and store the history results, it needs to have file input and output to make results comparison and sorting. 
 
 
- **[Multiple files]**
+  **[Multiple files]**
 - For the whole programme design, it includes several files:
-  Main.cpp, player.h, player.cpp, enemy.h, enemy.cpp, (image files, ranking history file)
+    -Main.cpp, player.h, player.cpp, enemy.h, enemy.cpp, (image files, ranking history file)
+    
+ 
+ Rough Work Flow:
   - Main (Battleground)
     - Background (initialize/reset)
-      - Clear bg
-      - Generate random release no. and types  [Generation of random game sets or events]
-      - Set up release linked list [Dynamic memory management]
-      - Draw functions (Draw player, enemies) 
-      - Player
-      - Enemy x 3 (linked list of enemies)
-      - Bullet (linked list of bullets)
-      - Prizes 
+      - ClearBackgound()
+      - Generate random enemy release number and enemy types  [Generation of random game sets or events]
+      - Set up/Update release linked list for enemy and bullet  [Dynamic memory management]
+      - Initialize/Update Player
+      - Move player()
+      - Draw functions (Draw player, enemies, explosion)      
     - Action function
       - Collision detection
         - player/enemy collision -> Endgame()
         - Bullet/enemy collision -> DrawExplosion()
-        - player/prize collision 
-    - Value record changes
-      - Points from defeating enemies
-      - Print point at lower left corner ShowPoints()
-    - End game() 
-      - Output screen: game over, name, points, ranking
-  - Player plane class 
+    - Value Record Changes
+      - Update points from defeating enemies
+      - Print point at lower left corner PrintScore()
+    - End game()
+      - Output screen: "game over", name, points
+      - Get ranking from ranking history file
+  - class Player
     - Functions
       - Read image (char image[][]) [File input/output]
       - Move
       - Draw 
-      - Variables: 
-        - Height and width (by image)
-        - Vertical position & horizontal position
-        - Points 
-  - Enemy plane class (header+function.cpp)
+     - Variables: 
+       - Height and width (by image)
+       - Vertical position & horizontal position
+       - Points 
+  - class Enemy
     - Functions
       - Read image (char image[][]) [File input/output]
       - Move 
@@ -79,22 +80,12 @@ Sky Fight is a text-based plane war game that the player ( one player ) controls
       - Vertical position & horizontal position
       - Speed 
       - Strength (how many hit by bullets to defeat)
-  - Bullet struct 
-  - Prize struct
-  - Explosion class
-    - Read Image
-    - Draw 
+  - struct Bullet
+     - Vertical position & horizontal position
+     - Node *ptr
+  - class Explosion
+    - Read Image (function)
+    - Draw  (function)
     - Height width (variables)
+    - Vertical position & horizontal position
 
-      
-
-
-     
-
-
-
-
-
-
- 
-  

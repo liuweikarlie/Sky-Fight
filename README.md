@@ -80,14 +80,14 @@ Player
       - Vertical position & horizontal position
       - Speed 
       - Strength (how many hit by bullets to defeat)
-    - Bullet struct 
-    - Prize struct
-    - Explosion class
-      - Read Image
-      - Draw 
-      - Height width (variables)
-    - ranking
-    - calculate points
+  - Bullet struct 
+  - Prize struct
+  - Explosion class
+    - Read Image
+    - Draw 
+    - Height width (variables)
+  - ranking
+  - calculate points
 
 
       

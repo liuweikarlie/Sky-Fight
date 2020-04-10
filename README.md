@@ -3,7 +3,7 @@
 - YANG JIALIN UID: 3035436648
 - LIU WEI     UID: 3035556589
 ## Description of the Game
-Sky Fight is a text-based plane war game that the player ( one player ) controls the direction of the plane to avoid the enemy’s plane to hit you.
+Sky Fight is a text-based plane war game that the player ( one player ) controls the direction of the plane to avoid the collision with enemy’s plane.
 1. Within the game, the player is able to shoot the enemy with their bullet continually. Each time, as the bullets are shot and kill one enemy’s plane, the player can earn points ( 10 points ). *(Eg.2 shots per seconds)*
 
 2. As for the enemy plane, different sizes of the enemy are killed by different numbers of bullet shots. The largest plane is killed by 15 bullets, the middle planes need 10 bullets, and the smallest one needs 5 bullets. *(adjust with the speed of falling)*

@@ -35,7 +35,6 @@ Sky Fight is a text-based plane war game that the player ( one player ) controls
   **[File input/output]**
 - In order to obtain ranking and store the history results, it needs to have file input and output to make results comparison and sorting. 
 
-
   **[Multiple files]**
 - For the whole programme design, it includes several files:
     -Main.cpp, player.h, player.cpp, enemy.h, enemy.cpp, (image files, ranking history file)

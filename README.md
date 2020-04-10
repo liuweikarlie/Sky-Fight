@@ -51,6 +51,53 @@ Player
       - Bullet (linked list of bullets)
       - Prizes 
     - Action function
+      - Collision detection
+        - player/enemy collision -> Endgame()
+        - Bullet/enemy collision -> DrawExplosion()
+        - player/prize collision 
+    - Value record changes
+      - Points from defeating enemies
+      - Print point at lower left corner ShowPoints()
+    - End game() 
+      - Output screen: game over, name, points, ranking
+  - Player plane class 
+    - Functions
+      - Read image (char image[][]) [File input/output]
+      - Move
+      - Draw 
+      - Variables: 
+        - Height and width (by image)
+        - Vertical position & horizontal position
+        - Points 
+  - Enemy plane class (header+function.cpp)
+    - Functions
+      - Read image (char image[][]) [File input/output]
+      - Move 
+      - Draw
+    - Variables
+      - Type
+      - Height and width (by image)
+      - Vertical position & horizontal position
+      - Speed 
+      - Strength (how many hit by bullets to defeat)
+    - Bullet struct 
+    - Prize struct
+    - Explosion class
+      - Read Image
+      - Draw 
+      - Height width (variables)
+    - ranking
+    - calculate points
+
+
+      
+
+
+     
+
+
+
+
 
 
  

@@ -1,6 +1,6 @@
 # Sky Fight- COMP2113 GROUP 186
 ## Team members
-- YANG JIALIN UID:
+- YANG JIALIN UID: 3035436648
 - LIU WEI     UID: 3035556589
 ## Description of the Game
 Sky Fight is a text-based plane war game that the player ( one player ) controls the direction of the plane to avoid the enemy’s plane to hit you.

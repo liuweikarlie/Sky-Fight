@@ -12,5 +12,5 @@ int main(){
     BattleGround bg;
     bg.simulate();
 
-	return 0;
+return 0;
 }

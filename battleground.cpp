@@ -161,7 +161,7 @@ void BattleGround::screenDimensions(){
         //check the screen height
         if(get_screen_rows() < HEIGHT){
             cout << "Not enough screenspace for a battle!" << endl;
-            cout << "Please increase the height of your screen (to 50) and hit Enter.";
+            cout << "Please increase the height (to 50 rows) of your screen and hit Enter.";
             cout << endl;
             cin.ignore();
         }else{
@@ -171,7 +171,7 @@ void BattleGround::screenDimensions(){
         //check the screen width
         if(get_screen_cols() < WIDTH){
             cout << "Not enough screenspace for a battle!" << endl;
-            cout << "Please increase the width (to 150) of your screen and hit Enter.";
+            cout << "Please increase the width (to 150 columns) of your screen and hit Enter.";
             cout << endl;
             cin.ignore();
             h_cleared = false;

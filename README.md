@@ -41,5 +41,6 @@ Try to avoid enemies coming from the top as long as possible!
     
     
 ## Compilation and execution instructions
-
-
+ - Download all files in this repo to a directory
+ - Input command: make skyfight
+ - Run the game command: ./skyfight 

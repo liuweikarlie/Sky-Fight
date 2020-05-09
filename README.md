@@ -37,7 +37,7 @@ Try to avoid enemies coming from the top as long as possible!
 - image files (Enemey_1, Enemey_2, Enemey_3, playerdraw ) will be read in enemy.cpp and player.cpp
 - Output our record if the player does not break it, store the new record if the player break it.
 
-  **[Multiple files]**
+ **[Multiple files]**
 - For the whole programme design, it includes several files:
     -Main.cpp, player.h, player.cpp, enemy.h, enemy.cpp, battleground.h battle.cpp func.h func.cpp (image files)
     

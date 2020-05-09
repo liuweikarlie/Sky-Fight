@@ -27,7 +27,7 @@ Enemy::Enemy(){
 void Enemy::readEnemy(int type){
     ifstream *read_from;
     ifstream efile;
-    //srand(time(NULL));
+  
     v_pos = 0;
     h_pos = rand() % 150 + 1;
     speed = rand() % 5 + 1;

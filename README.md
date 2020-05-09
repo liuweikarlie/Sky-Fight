@@ -17,7 +17,8 @@ Try to avoid enemies coming from the top as long as possible!
  
 4. The player controls the direction with a(move to left) and d(move to right) from the keyboard.
 
-The link to demostrate the game:  https://hku.zoom.us/rec/share/xZxQL7fC8j9LGafcymDUQ7weRJ__T6a80HVLqPQJyRuxmzQMrO_wuRvppUyyzyIk?startTime=1589016183000
+5. **The video to demostrate the game**: https://hku.zoom.us/rec/share/xZxQL7fC8j9LGafcymDUQ7weRJ__T6a80HVLqPQJyRuxmzQMrO_wuRvppUyyzyIk?startTime=1589016183000
+
 
 ## Function and Feature of the game
  

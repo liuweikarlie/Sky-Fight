@@ -41,17 +41,17 @@ class BattleGround{
 	void drawEnemies();
 	void moveEnemies();
 
-  void drawPlayer(Player *player);
-  void moveplayer(char c, Player *player);
+  	void drawPlayer(Player *player);
+  	void moveplayer(char c, Player *player);
 
 	//setup functions
 	void screenDimensions();
-  void addEnemy(Enemy *e);
+  	void addEnemy(Enemy *e);
 
 	//functions for freeing memory
 	void free_enemies(Enemy *curr_a);
 
-  void outputfile(int step);
+  	void outputfile(int step);
 	bool collision(Player *a, int &killtime);
 
 	//battleground constants

@@ -298,7 +298,6 @@ bool BattleGround::collision(Player *a, int &killtime){
     return stopped;
 }
 
-
 /* Functions that free memory when the battle is over  */
 //BattleGround destructor
 BattleGround::~BattleGround(){

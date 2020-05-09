@@ -34,7 +34,6 @@ class Enemy {
   private:
     static const int MAX_DIM = 20;
 
-
     float v_pos;
     float h_pos;
     float speed;

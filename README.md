@@ -42,5 +42,12 @@ Try to avoid enemies coming from the top as long as possible!
     
 ## Compilation and execution instructions
  - Download all files in this repo to a directory
- - Input command: make skyfight
+ - Input command: make 
  - Run the game command: ./skyfight 
+ 
+ ## Game instruction
+ - The game require the screen size is heigh is 50 and width is 150, so make sure the terminal at full screen version
+ - "P" square represent the Player plane, other square using "1" "2" "3" is the random enemy plane.
+ - Player can control the left and right movement of the plane using "a" and "d” keybroad.
+ - The video demostration and explanation of the game:
+ The link: https://hku.zoom.us/rec/share/xZxQL7fC8j9LGafcymDUQ7weRJ__T6a80HVLqPQJyRuxmzQMrO_wuRvppUyyzyIk?startTime=1589016183000

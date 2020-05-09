@@ -48,8 +48,9 @@ Try to avoid enemies coming from the top as long as possible!
  - Input command: make 
  - Run the game command: ./skyfight 
  
- ## Game instruction
+ 
+## Game instruction
  - The game require the screen size is heigh is 50 and width is 150, so make sure the terminal at full screen version
  - "P" square represent the Player plane, other square using "1" "2" "3" is the random enemy plane.
  - Player can control the left and right movement of the plane using "a" and "d” keybroad.
- 
+
